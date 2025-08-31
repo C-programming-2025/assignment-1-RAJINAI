@@ -3,6 +3,9 @@
 #include <stdio.h>
 
 int main() {
-    //Enter your code here
+    char name[60];
+    printf("Enter your name: ");
+    scanf("%s", name);
+    printf("Hello, %s! Welcome!\n", name);
     return 0;
 }
