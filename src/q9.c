@@ -1,4 +1,4 @@
-#include <_stdio.h>
+#include <stdio.h>
 int main() {
     int totalDays, weeks, days;
     printf("Enter number of days: ");
