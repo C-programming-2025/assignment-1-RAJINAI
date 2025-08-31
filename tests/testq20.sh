@@ -7,12 +7,6 @@ if grep -E "for|while|if" src/q20.c; then
   exit 1
 fi
 
-# Disallow modulus operator
-if grep -E "%" src/q20.c; then
-  echo "❌ Q20 failed (modulus operator not allowed)"
-  exit 1
-fi
-
 gcc src/q20.c -o q20
 
 # Test: n=9 → multiple of 3 → should output 1

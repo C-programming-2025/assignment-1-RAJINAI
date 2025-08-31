@@ -7,7 +7,7 @@ if grep -E "for|while|if" src/21.c; then
   exit 1
 fi
 
-gcc src/21.c -o q21
+gcc src/q21.c -o q21
 
 # Test: x=1, y=2, z=3 → cyclic swap → x=2, y=3, z=1
 output=$(echo -e "1\n2\n3" | ./q21 | tr -d '\n')

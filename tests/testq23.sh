@@ -7,7 +7,7 @@ if grep -E "for|while|if" src/q23.c; then
   exit 1
 fi
 
-gcc src/q23.c -o q23
+gcc src/q23.c -o q23 -lm
 
 # Test: num=8 → power of 2 → should output 1
 output=$(echo "8" | ./q23)
