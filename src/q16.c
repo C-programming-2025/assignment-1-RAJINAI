@@ -1,4 +1,3 @@
-// Given <two variables x and y, write an expression that calculates the average of their values.
 #include <stdio.h>
 int main(){
     int x = 10, y = 20;

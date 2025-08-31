@@ -1,4 +1,3 @@
-// Create an expression that checks if a given character is an uppercase letter.
 #include <stdio.h>
 int main(){
     char ch = 'A';
