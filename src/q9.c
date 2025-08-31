@@ -5,6 +5,6 @@ int main() {
     scanf("%d", &totalDays);
     weeks = totalDays / 7;
     days = totalDays % 7;
-    printf("%d days is equivalent to %d week(s) and %d day(s)\n", totalDays, weeks, days);
+    printf("%d days is equivalent to %d week(s) and %d day(s)\n", totalDays,weeks, days);
     return 0;
 }
